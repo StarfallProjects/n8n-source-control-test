@@ -1,0 +1,13 @@
+{
+  "id": "XR87BMvpfNJaCvyD",
+  "name": "Git account",
+  "type": "gitPassword",
+  "data": {
+    "username": "",
+    "password": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "personalEmail": "deborah@n8n.io"
+  }
+}

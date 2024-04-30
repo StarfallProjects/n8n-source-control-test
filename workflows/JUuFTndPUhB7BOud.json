@@ -1,0 +1,52 @@
+{
+  "id": "JUuFTndPUhB7BOud",
+  "name": "w1",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "9e3da5a6-f559-4b73-b027-0968d5339bda",
+      "name": "When clicking \"Test workflow\"",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        520,
+        500
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "390c8577-00fe-46e0-af56-3d204fb2e38c",
+      "name": "Edit Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [
+        740,
+        500
+      ]
+    }
+  ],
+  "connections": {
+    "When clicking \"Test workflow\"": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "27105d57-37b2-4c30-afaf-1fcb873a48a5",
+  "owner": {
+    "type": "personal",
+    "personalEmail": "deborah@n8n.io"
+  }
+}
